@@ -1,0 +1,36 @@
+{
+  "name": "shopify-embedded-app",
+  "version": "1.0.0",
+  "description": "Shopify Embeded Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Krzysztof Kaminski",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.18",
+    "@shopify/koa-shopify-graphql-proxy": "^2.1.5",
+    "@shopify/polaris": "^3.10.0",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.3.1",
+    "dotenv": "^7.0.0",
+    "graphql": "^14.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.0",
+    "koa": "^2.7.0",
+    "koa-session": "^5.10.1",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-apollo": "^2.5.2",
+    "react-dom": "^16.8.4",
+    "store-js": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
